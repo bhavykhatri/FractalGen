@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fractalgen"
+version = "0.1.0"
+description = "A Python package to generate and visualize fractal patterns."
+authors = [
+    { name = "Bhavy Khatri", email = "bhavykhatri@gmail.com" }
+]
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.7"
+dependencies = [
+    "numpy>=1.21",
+    "matplotlib>=3.4"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bhavykhatri/FractalGen"
