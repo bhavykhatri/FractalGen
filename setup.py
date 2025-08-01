@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="fractalgen",
+    name="fractalplots",
     version="0.1.0",
     description="A package to generate fractal patterns in Python",
     author="Your Name",

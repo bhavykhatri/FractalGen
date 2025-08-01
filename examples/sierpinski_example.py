@@ -1,4 +1,4 @@
-from fractalgen import generate_sierpinski, plot_sierpinski
+from fractalplots import generate_sierpinski, plot_sierpinski
 
 # Define initial triangle points
 p1 = (0, 0)

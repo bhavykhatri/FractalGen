@@ -1,4 +1,4 @@
-from fractalgen import generate_lsystem, draw_lsystem
+from fractalplots import generate_lsystem, draw_lsystem
 
 # Define L-system rules for a fractal tree
 axiom = "F"

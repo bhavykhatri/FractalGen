@@ -1,4 +1,4 @@
-from fractalgen import generate_koch
+from fractalplots import generate_koch
 
 def test_koch_point_count():
     # For order 0, it's a triangle: 3 sides + 1 closing point

@@ -1,4 +1,4 @@
-from fractalgen import generate_koch, plot_koch
+from fractalplots import generate_koch, plot_koch
 
 # Generate the points of the Koch snowflake
 points = generate_koch(order=4, length=1.0)

@@ -1,4 +1,4 @@
-from fractalgen import generate_lsystem
+from fractalplots import generate_lsystem
 
 def test_lsystem_length_increases():
     axiom = "F"

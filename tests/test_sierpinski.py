@@ -1,4 +1,4 @@
-from fractalgen import generate_sierpinski
+from fractalplots import generate_sierpinski
 
 def test_sierpinski_triangle_count():
     p1 = (0, 0)

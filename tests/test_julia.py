@@ -1,4 +1,4 @@
-from fractalgen import generate_julia
+from fractalplots import generate_julia
 import numpy as np
 
 def test_julia_output():

@@ -1,4 +1,4 @@
-from fractalgen import generate_julia, plot_julia
+from fractalplots import generate_julia, plot_julia
 
 # Example Julia set with complex parameter c
 c = complex(-0.7, 0.27015)

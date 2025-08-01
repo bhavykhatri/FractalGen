@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fractalplots"
-version = "0.1.0"
+version = "0.1.1"
 description = "Generate and visualize fractal patterns like Mandelbrot, Julia, Koch, Sierpinski, and L-Systems."
 authors = [
     { name = "Bhavy Khatri", email = "bhavykhatri@gmail.com" }
@@ -31,6 +31,6 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/bhavykhatri/FractalGen"
-Source = "https://github.com/bhavykhatri/FractalGen"
-Tracker = "https://github.com/bhavykhatri/FractalGen/issues"
+Homepage = "https://github.com/bhavykhatri/fractalplots"
+Source = "https://github.com/bhavykhatri/fractalplots"
+Tracker = "https://github.com/bhavykhatri/fractalplots/issues"

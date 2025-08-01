@@ -1,4 +1,4 @@
-from fractalgen import generate_mandelbrot
+from fractalplots import generate_mandelbrot
 import numpy as np
 
 def test_mandelbrot_shape():
