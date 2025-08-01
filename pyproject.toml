@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fractalgen"
+name = "fractalplots"
 version = "0.1.0"
-description = "A Python package to generate and visualize fractal patterns."
+description = "Generate and visualize fractal patterns like Mandelbrot, Julia, Koch, Sierpinski, and L-Systems."
 authors = [
     { name = "Bhavy Khatri", email = "bhavykhatri@gmail.com" }
 ]
@@ -16,6 +16,21 @@ dependencies = [
     "numpy>=1.21",
     "matplotlib>=3.4"
 ]
+keywords = ["fractal", "math", "visualization", "mandelbrot", "julia", "koch", "sierpinski", "l-system"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Visualization",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
 
 [project.urls]
-"Homepage" = "https://github.com/bhavykhatri/FractalGen"
+Homepage = "https://github.com/bhavykhatri/FractalGen"
+Source = "https://github.com/bhavykhatri/FractalGen"
+Tracker = "https://github.com/bhavykhatri/FractalGen/issues"
