@@ -1,7 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def generate_mandelbrot(xmin, xmax, ymin, ymax, width, height, max_iter):
+def generate_mandelbrot(xmin=-2.0, xmax=1.0, ymin=-1.5, ymax=1.5,
+                        width=800, height=800, max_iter=100):
     x = np.linspace(xmin, xmax, width)
     y = np.linspace(ymin, ymax, height)
     C = x[:, None] + 1j * y[None, :]
