@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "fractalplots"
-version = "0.1.1"
+version = "0.1.2"
 description = "Generate and visualize fractal patterns like Mandelbrot, Julia, Koch, Sierpinski, and L-Systems."
 authors = [
     { name = "Bhavy Khatri", email = "bhavykhatri@gmail.com" }
